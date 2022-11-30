@@ -2,7 +2,7 @@
 //  SearchGIFUITestsLaunchTests.swift
 //  SearchGIFUITests
 //
-//  Created by Viktorija on 29/11/2022.
+//  Created by Viktorija on 24/11/2022.
 //
 
 import XCTest

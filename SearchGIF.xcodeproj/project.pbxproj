@@ -14,6 +14,23 @@
 		3DB266C12936608A00A6F852 /* SearchGIFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266C02936608A00A6F852 /* SearchGIFTests.swift */; };
 		3DB266CB2936608A00A6F852 /* SearchGIFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266CA2936608A00A6F852 /* SearchGIFUITests.swift */; };
 		3DB266CD2936608A00A6F852 /* SearchGIFUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266CC2936608A00A6F852 /* SearchGIFUITestsLaunchTests.swift */; };
+		3DB266DB293660E100A6F852 /* ErrorGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266DA293660E100A6F852 /* ErrorGif.swift */; };
+		3DB266DF293660FF00A6F852 /* GiphyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266DD293660FF00A6F852 /* GiphyClient.swift */; };
+		3DB266E0293660FF00A6F852 /* GiphyClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266DD293660FF00A6F852 /* GiphyClient.swift */; };
+		3DB266E1293660FF00A6F852 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266DE293660FF00A6F852 /* RequestObservable.swift */; };
+		3DB266E2293660FF00A6F852 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266DE293660FF00A6F852 /* RequestObservable.swift */; };
+		3DB266E42936611000A6F852 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266E32936611000A6F852 /* SearchField.swift */; };
+		3DB266E52936611000A6F852 /* SearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266E32936611000A6F852 /* SearchField.swift */; };
+		3DB266E72936611D00A6F852 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266E62936611C00A6F852 /* ButtonStyle.swift */; };
+		3DB266E82936611D00A6F852 /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266E62936611C00A6F852 /* ButtonStyle.swift */; };
+		3DB266ED2936617800A6F852 /* SearchFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266EC2936617800A6F852 /* SearchFieldModel.swift */; };
+		3DB266EE2936617800A6F852 /* SearchFieldModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266EC2936617800A6F852 /* SearchFieldModel.swift */; };
+		3DB266F12936618B00A6F852 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266F02936618B00A6F852 /* GIF.swift */; };
+		3DB266F22936618B00A6F852 /* GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB266F02936618B00A6F852 /* GIF.swift */; };
+		3DB266F5293661DB00A6F852 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB266F4293661DB00A6F852 /* RxBlocking */; };
+		3DB266F7293661DB00A6F852 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB266F6293661DB00A6F852 /* RxCocoa */; };
+		3DB266F9293661DB00A6F852 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB266F8293661DB00A6F852 /* RxRelay */; };
+		3DB266FC2936621D00A6F852 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3DB266FB2936621D00A6F852 /* SDWebImageSwiftUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +61,13 @@
 		3DB266C62936608A00A6F852 /* SearchGIFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchGIFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB266CA2936608A00A6F852 /* SearchGIFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGIFUITests.swift; sourceTree = "<group>"; };
 		3DB266CC2936608A00A6F852 /* SearchGIFUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchGIFUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3DB266DA293660E100A6F852 /* ErrorGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorGif.swift; sourceTree = "<group>"; };
+		3DB266DD293660FF00A6F852 /* GiphyClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiphyClient.swift; sourceTree = "<group>"; };
+		3DB266DE293660FF00A6F852 /* RequestObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestObservable.swift; sourceTree = "<group>"; };
+		3DB266E32936611000A6F852 /* SearchField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchField.swift; sourceTree = "<group>"; };
+		3DB266E62936611C00A6F852 /* ButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
+		3DB266EC2936617800A6F852 /* SearchFieldModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchFieldModel.swift; sourceTree = "<group>"; };
+		3DB266F02936618B00A6F852 /* GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GIF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +75,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB266FC2936621D00A6F852 /* SDWebImageSwiftUI in Frameworks */,
+				3DB266F9293661DB00A6F852 /* RxRelay in Frameworks */,
+				3DB266F7293661DB00A6F852 /* RxCocoa in Frameworks */,
+				3DB266F5293661DB00A6F852 /* RxBlocking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +122,12 @@
 		3DB266AE2936608700A6F852 /* SearchGIF */ = {
 			isa = PBXGroup;
 			children = (
+				3DB266EF2936618B00A6F852 /* Structures */,
+				3DB266EB2936617800A6F852 /* Models */,
+				3DB266EA2936615200A6F852 /* Views */,
+				3DB266DC293660FF00A6F852 /* Requests */,
+				3DB266D9293660E100A6F852 /* Exceptions */,
 				3DB266AF2936608700A6F852 /* SearchGIFApp.swift */,
-				3DB266B12936608700A6F852 /* ContentView.swift */,
 				3DB266B32936608A00A6F852 /* Assets.xcassets */,
 				3DB266B52936608A00A6F852 /* Preview Content */,
 			);
@@ -127,6 +159,49 @@
 			path = SearchGIFUITests;
 			sourceTree = "<group>";
 		};
+		3DB266D9293660E100A6F852 /* Exceptions */ = {
+			isa = PBXGroup;
+			children = (
+				3DB266DA293660E100A6F852 /* ErrorGif.swift */,
+			);
+			path = Exceptions;
+			sourceTree = "<group>";
+		};
+		3DB266DC293660FF00A6F852 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB266DD293660FF00A6F852 /* GiphyClient.swift */,
+				3DB266DE293660FF00A6F852 /* RequestObservable.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		3DB266EA2936615200A6F852 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DB266B12936608700A6F852 /* ContentView.swift */,
+				3DB266E32936611000A6F852 /* SearchField.swift */,
+				3DB266E62936611C00A6F852 /* ButtonStyle.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DB266EB2936617800A6F852 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3DB266EC2936617800A6F852 /* SearchFieldModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3DB266EF2936618B00A6F852 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				3DB266F02936618B00A6F852 /* GIF.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +218,12 @@
 			dependencies = (
 			);
 			name = SearchGIF;
+			packageProductDependencies = (
+				3DB266F4293661DB00A6F852 /* RxBlocking */,
+				3DB266F6293661DB00A6F852 /* RxCocoa */,
+				3DB266F8293661DB00A6F852 /* RxRelay */,
+				3DB266FB2936621D00A6F852 /* SDWebImageSwiftUI */,
+			);
 			productName = SearchGIF;
 			productReference = 3DB266AC2936608700A6F852 /* SearchGIF.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +296,10 @@
 				Base,
 			);
 			mainGroup = 3DB266A32936608700A6F852;
+			packageReferences = (
+				3DB266F3293661DB00A6F852 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				3DB266FA2936621D00A6F852 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 3DB266AD2936608700A6F852 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +342,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB266E42936611000A6F852 /* SearchField.swift in Sources */,
+				3DB266DF293660FF00A6F852 /* GiphyClient.swift in Sources */,
 				3DB266B22936608700A6F852 /* ContentView.swift in Sources */,
 				3DB266B02936608700A6F852 /* SearchGIFApp.swift in Sources */,
+				3DB266ED2936617800A6F852 /* SearchFieldModel.swift in Sources */,
+				3DB266DB293660E100A6F852 /* ErrorGif.swift in Sources */,
+				3DB266F12936618B00A6F852 /* GIF.swift in Sources */,
+				3DB266E1293660FF00A6F852 /* RequestObservable.swift in Sources */,
+				3DB266E72936611D00A6F852 /* ButtonStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DB266EE2936617800A6F852 /* SearchFieldModel.swift in Sources */,
+				3DB266E2293660FF00A6F852 /* RequestObservable.swift in Sources */,
+				3DB266E0293660FF00A6F852 /* GiphyClient.swift in Sources */,
+				3DB266E52936611000A6F852 /* SearchField.swift in Sources */,
+				3DB266E82936611D00A6F852 /* ButtonStyle.swift in Sources */,
 				3DB266C12936608A00A6F852 /* SearchGIFTests.swift in Sources */,
+				3DB266F22936618B00A6F852 /* GIF.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +681,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3DB266F3293661DB00A6F852 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		3DB266FA2936621D00A6F852 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3DB266F4293661DB00A6F852 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB266F3293661DB00A6F852 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		3DB266F6293661DB00A6F852 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB266F3293661DB00A6F852 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		3DB266F8293661DB00A6F852 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB266F3293661DB00A6F852 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		3DB266FB2936621D00A6F852 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3DB266FA2936621D00A6F852 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3DB266A42936608700A6F852 /* Project object */;
 }
